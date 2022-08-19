@@ -1,0 +1,24 @@
+{
+  "name": "template-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "template-cli": "./index.js"
+  },
+  "repository": "https://github.com/Oracle247/cli-tool.git",
+  "author": "Codes Oracle <94334497+Oracle247@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.0"
+  }
+}
