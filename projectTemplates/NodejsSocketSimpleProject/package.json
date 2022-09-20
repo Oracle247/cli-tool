@@ -1,0 +1,32 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-rate-limit": "^5.1.3",
+    "express-session": "^1.17.1",
+    "http": "^0.0.1-security",
+    "node-pre-gyp": "^0.15.0",
+    "nodemon": "^2.0.4",
+    "peerjs": "^1.4.7",
+    "socket.io": "4.2.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prince Gbalam",
+  "license": "ISC"
+}

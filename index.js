@@ -9,7 +9,7 @@ const CURR_DIR = process.cwd();
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-const CHOICES = fs.readdirSync(`${__dirname}/templates`);
+const CHOICES = fs.readdirSync(`${__dirname}/projectTemplates`);
 
 const QUESTIONS = [
     {
